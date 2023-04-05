@@ -12,7 +12,7 @@ tags =  {
 }
 
 # s3 bucket
-resource "aws_s3_bucket" "my-s3-2-snr" {
+resource "aws_s3_bucket" "my-s3-4-snr" {
    bucket = var.bucket
 #Enable versioning for the bucket
   versioning {
