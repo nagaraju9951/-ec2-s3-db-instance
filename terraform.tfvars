@@ -1,14 +1,14 @@
 # for Ec2-instance
-ami_id                    = "ami-00c39f71452c08778"
+ami_id                  = "ami-00c39f71452c08778"
 instance_type           = "t2.micro"
 key_name                = "demokey"
 sg_ids                  = ["sg-02e9238f2557e4bef"]
 subnet_id               = "subnet-032fb21e1ee472561"
 Environment             = "Development-snr"
-Name                    = "Ec2-instance-snr-1"
+Name                    = "ec2-1"
 
 #for s3 bucket
-bucket               = "my-s3-3-snr"
+bucket               = "my-s3-4-snr"
 bucket-name          = "testing"
   
   # for rds 

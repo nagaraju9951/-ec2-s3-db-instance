@@ -1,15 +1,15 @@
 
-output "demo_ec2_id" {
+output "save-tf_id" {
   description = "Print the ID of EC2 Instance"
-  value       = aws_instance.demo_ec2.id
+  value       = aws_instance.save-tf.id
 }
 
-output "demo_ec2_private_ip" {
+output "save-tf_private_ip" {
   description = "Print the Private IP of EC2 Instance"
-  value       = aws_instance.demo_ec2.private_ip
+  value       = aws_instance.save-tf.private_ip
 }
 
-output "demo_ec2_public_ip" {
+output "save-tf_public_ip" {
   description = "Print the Public IP of EC2 Instance"
-  value       = aws_instance.demo_ec2.public_ip
+  value       = aws_instance.save-tf.public_ip
 }
